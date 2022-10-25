@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+  }
+  body {
+    font-family: "Inter", sans-serif !important;
+    overflow-x: hidden !important;
+  }
+  .n-link {
+    margin-right: 45px !important;
+    font-weight: 400;
+    font-size: 18px !important;
+    line-height: 22px;
+    color: #333333 !important;
+    text-decoration: none !important;
+  }
+  .n-brand {
+    margin-right: 105px !important;
+  }
+  ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .n-btn {
+    background: #ff6645;
+    border-radius: 10px;
+    padding: 16px 40px !important;
+    font-weight: 500;
+    font-size: 19px !important;
+    line-height: 23px;
+    color: #ffffff !important;
+    width: fit-content !important;
+  }
+  .h-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  .h-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  section {
+    padding: 5rem 0;
+  }
+  .h-content {
+    position: relative;
+    padding: 20px 0;
+  }
+  .h-top {
+    position: absolute;
+    top: 0;
+    left: -120px;
+    z-index: -1;
+  }
+  .h-right-bottom {
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+    z-index: -1;
+  }
+  .g-h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #233443;
+  }
+  .g-p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+  }
+  .h-icons h4 {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+  
+    color: #000000;
+  }
+  .title-text h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+  }
+  .work-container {
+    padding-top: 80px;
+  }
+  .card h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #233443;
+  }
+  .card p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+  }
+  .card a {
+    color: #ff6645;
+  }
+  .w-box {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  .w-box-1 {
+    background: #5046c7;
+  }
+  .w-box-2 {
+    background: #ff6645;
+  }
+  .w-box-3 {
+    background: #81d9f8;
+  }
+  .card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2) !important;
+    transform: scale(1.03);
+    transition: all 0.4s ease-out !important;
+  }
+  .s-container h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #233443;
+  }
+  .s-container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
+  }
+  .pt-80 {
+    padding-top: 80px;
+  }
+  .mt-80 {
+    margin-top: 80px;
+  }
+  li {
+    list-style: none !important;
+  }
+  .f-container {
+    position: relative;
+    z-index: 2;
+  }
+  .footer-shape-1 {
+    position: absolute;
+    left: 0;
+  
+    z-index: -1;
+  }
+  .footer-shape-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  footer {
+    background-color: #243543;
+  }
+  .footer-text h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 125% */
+  
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  .input {
+    position: relative;
+  
+    margin: 2rem auto;
+  }
+  .input input {
+    background: #ffffff;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.12);
+    border-radius: 60px;
+    outline: none;
+    padding: 12px 24px;
+  
+    border: none;
+  }
+  .input button {
+    position: absolute;
+    top: 2.3px;
+    right: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    background: #ff6645;
+    padding: 12px 20px;
+    color: #ffffff;
+    border-radius: 60px;
+    outline: none;
+    border: none;
+  }
+  .f-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  .footer-p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .f-container {
+      display: none;
+    }
+  }
+  
